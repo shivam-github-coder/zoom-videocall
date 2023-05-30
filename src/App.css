@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+p,
+li,
+ul,
+ol,
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+.back-home {
+  position: absolute;
+  z-index: 99;
+  right: 30px;
+  bottom: 30px;
+}
+#root {
+  height: 100%;
+}
+
+.HomepagePhoto {
+  width: 85%;
+}
+
+#copyInput {
+  font-size: 17px;
+}
+
+.LearnMore {
+  cursor: pointer;
+}
+.LearnMore:hover {
+  text-decoration: underline;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+/* .css-1exqwzz-MuiSnackbarContent-message {
+  padding: 0 !important;
+}
+#JoinMeetingLink .css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root {
+  padding: 0px 16px !important;
+} */
+/* .SnackbarItem-variantInfo {
+  background-color: #fff !important;
+  color: #919499 !important;
+} */
+
+.OTPField {
+  width: 2em !important;
+  margin-bottom: 20px;
+}
+
+.lebalOTP {
+  width: 50% !important;
+  text-align: center !important;
+  border-bottom: 1px solid #000 !important;
+  line-height: 0.1em !important;
+  margin: 10px 0 30px !important;
+}
+
+.lebalOTP span {
+  background: #fff !important;
+  padding: 0 10px !important;
+  font-size: 20px !important;
+}
